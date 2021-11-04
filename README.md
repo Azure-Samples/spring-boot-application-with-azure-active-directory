@@ -8,10 +8,10 @@ Please refer to [docs] to get more information about how to use the samples in t
 
 You can change branch to see contents for specific Spring Boot version.
 
-| [Spring Boot] version | Branch name        | Current branch     | Default branch     |
-| --------------------- | ------------------ | ------------------ | ------------------ | 
-| 2.5.x                 |[spring-boot-2.5.x] | :heavy_check_mark: | :heavy_check_mark: |
-| 2.6.x                 | not supported yet  | :x:                | :x:                |
+| Branch name        | [Spring Boot] version | Is current branch? | Is default branch? |
+| ------------------ | --------------------- | ------------------ | ------------------ | 
+|[spring-boot-2.5.x] | 2.5.x                 | :heavy_check_mark: | :heavy_check_mark: |
+| not supported yet  | 2.6.x                 | :x:                | :x:                |
 
 
 
