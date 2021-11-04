@@ -10,7 +10,7 @@
 
 
 # 1. About
-This doc demonstrates how to use [Azure Active Directory] by [Spring Security] framework.
+This doc is used to demonstrate how to use [Azure Active Directory] in [Spring Boot] application.
 
 # 2. Ask for help
 If you have any question about these samples, please ask by [creating a new github issue].
@@ -37,8 +37,8 @@ To be done.
 
 
 [Azure Active Directory]: https://azure.microsoft.com/services/active-directory/
-[Spring Security]: https://spring.io/projects/spring-security
-[creating a new github issue]: https://github.com/Azure-Samples/azure-spring-boot-samples/issues/new
+[Spring Boot]: https://spring.io/projects/spring-boot
+[creating a new github issue]: https://github.com/Azure-Samples/spring-boot-application-with-azure-active-directory/issues/new
 [homework answers]: homework-answers.md
 [01-basic-scenario]: servlet/oauth2/01-basic-scenario.md
 [02-check-permissions-by-claims-in-access-token]: servlet/oauth2/02-check-permissions-by-claims-in-access-token.md
