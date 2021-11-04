@@ -8,10 +8,10 @@ Please refer to [docs] to get more information.
 
 You can change branch to see contents for specific Spring Boot version.
 
-| Spring Boot version | Branch name        | Current branch     | Default branch     |
-| ------------------- | ------------------ | ------------------ | ------------------ | 
-| 2.5.x               |[spring-boot-2.5.x] | :heavy_check_mark: | :heavy_check_mark: |
-| 2.5.x               | not supported yet  | :x:                | :x:                |
+| [Spring Boot] version | Branch name        | Current branch     | Default branch     |
+| --------------------- | ------------------ | ------------------ | ------------------ | 
+| 2.5.x                 |[spring-boot-2.5.x] | :heavy_check_mark: | :heavy_check_mark: |
+| 2.6.x                 | not supported yet  | :x:                | :x:                |
 
 
 
