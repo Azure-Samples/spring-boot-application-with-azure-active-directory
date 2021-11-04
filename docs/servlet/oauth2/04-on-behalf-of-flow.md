@@ -38,25 +38,25 @@ Get samples applications from in GitHub: [04-on-behalf-of-flow].
 # 3. Create resources in Azure
 
 ## 3.1. Create a tenant
-Read [document about creating an Azure AD tenant], create a new tenant. Get the tenant-id: **<tenant-id>**.
+Read [document about creating an Azure AD tenant], create a new tenant. Get the tenant-id: **${tenant-id}**.
 
 ## 3.2. Add a new user
-Read [document about adding users], add a new user: **user-1@<tenant-name>.com**. Get the user's password.
+Read [document about adding users], add a new user: **user-1@${tenant-name}.com**. Get the user's password.
 
 ## 3.3. Register client-1
-Read [document about registering an application], register an application named **client-1**. Get the client-id: **<client-1-client-id>**.
+Read [document about registering an application], register an application named **client-1**. Get the client-id: **${client-1-client-id}**.
 
 ## 3.4. Add a client secret for client-1
-Read [document about adding a client secret], add a client secret. Get the client-secret value: **<client-1-client-secret>**.
+Read [document about adding a client secret], add a client secret. Get the client-secret value: **${client-1-client-secret}**.
 
 ## 3.5. Add a redirect URI for client-1
 Read [document about adding a redirect URI], add redirect URI: **http://localhost:8080/login/oauth2/code/**.
 
 ## 3.6. Register resource-server-1
-Read [document about registering an application], register an application named **resource-server-1**. Get the client-id: **<resource-server-1-client-id>**.
+Read [document about registering an application], register an application named **resource-server-1**. Get the client-id: **${resource-server-1-client-id}**.
 
 ## 3.7. Add a client secret for resource-server-1
-Read [document about adding a client secret], add a client secret. Get the client-secret value: **<resource-server-1-client-secret>**.
+Read [document about adding a client secret], add a client secret. Get the client-secret value: **${resource-server-1-client-secret}**.
 
 ## 3.8. Add a redirect URI for resource-server-1
 Read [document about adding a redirect URI], add redirect URI: **http://localhost:8080/login/oauth2/code/**.
@@ -65,7 +65,7 @@ Read [document about adding a redirect URI], add redirect URI: **http://localhos
 Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
 
 ## 3.10. Register resource-server-2
-Read [document about registering an application], register an application named **resource-server-2**. Get the client-id: **<resource-server-2-client-id>**.
+Read [document about registering an application], register an application named **resource-server-2**. Get the client-id: **${resource-server-2-client-id}**.
 
 ## 3.11. Expose apis for resource-server-2
 Read [document about exposing an api], expose 2 scopes for resource-server-2: **resource-server-2.scope-1** and **resource-server-2.scope-2**, choose **Admins and users** for **Who can consent** option.
