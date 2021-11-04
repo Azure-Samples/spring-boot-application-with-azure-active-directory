@@ -2,7 +2,7 @@
 
 This repo is used to demonstrate how to use [Azure Active Directory] in [Spring Boot] application.
 
-Please refer to [docs] to get more information.
+Please refer to [docs] to get more information about how to use the samples in this repo.
 
 # Multiple version support
 
