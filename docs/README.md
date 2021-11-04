@@ -1,7 +1,13 @@
+
 - [1. About](#1-about)
 - [2. Ask for help](#2-ask-for-help)
 - [3. Homeworks](#3-homeworks)
-- [4. Sample](#4-sample)
+- [4. Sample applications](#4-sample-applications)
+    * [4.1. Servlet](#41-servlet)
+        + [4.1.1. OAuth 2](#411-oauth-2)
+        + [4.1.2. SAML2](#412-saml2)
+    * [4.2. Reactive](#42-reactive)
+
 
 
 
@@ -18,15 +24,15 @@ If you have any question about these samples, please ask by [creating a new gith
 # 3. Homeworks
 Each sample has homework, you can get the answer in [homework answers].
 
-# 4. Sample
+# 4. Sample applications
 
 ## 4.1. Servlet
 
 ### 4.1.1. OAuth 2
 
-1. [01-basic-scenario].
-2. [02-check-permissions-by-claims-in-access-token].
-3. [03-multiple-resource-server].
+1. [01-basic-scenario]
+2. [02-check-permissions-by-claims-in-access-token]
+3. [03-multiple-resource-server]
 4. [04-on-behalf-of-flow]
 
 ### 4.1.2. SAML2
