@@ -6,6 +6,8 @@
 
   <groupId>com.azure.spring</groupId>
   <artifactId>spring-boot-application-with-azure-active-directory</artifactId>
+  <version>2.5.6-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <properties>
     <maven.compiler.source>11</maven.compiler.source>

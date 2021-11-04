@@ -69,13 +69,13 @@ You can follow the following steps to create sample applications, or you can use
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.5.4</version>
+    <version>2.5.6</version>
     <relativePath/>
   </parent>
 
   <groupId>com.azure.spring</groupId>
   <artifactId>azure-active-directory-spring-security-servlet-oauth2-03-client</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>2.5.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -323,13 +323,13 @@ spring:
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.5.4</version>
+    <version>2.5.6</version>
     <relativePath/>
   </parent>
 
   <groupId>com.azure.spring</groupId>
   <artifactId>azure-active-directory-spring-security-servlet-oauth2-03-resource-server-1</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>2.5.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <dependencies>
@@ -509,13 +509,13 @@ spring:
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.5.4</version>
+    <version>2.5.6</version>
     <relativePath/>
   </parent>
 
   <groupId>com.azure.spring</groupId>
   <artifactId>azure-active-directory-spring-security-servlet-oauth2-03-resource-server-2</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>2.5.6-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <dependencies>
