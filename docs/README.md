@@ -1,7 +1,7 @@
 - [1. About](#1-about)
 - [2. Ask for help](#2-ask-for-help)
 - [3. Homeworks](#3-homeworks)
-- [4. Sample list](#4-sample)
+- [4. Sample](#4-sample)
 
 
 
