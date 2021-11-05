@@ -2,6 +2,9 @@
 # 1. ${tenant-id}
 # 2. ${resource-server-2-client-id}
 
+logging:
+  level:
+    root: DEBUG
 server:
   port: 8082
 spring:
