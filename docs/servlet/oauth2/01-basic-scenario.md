@@ -7,8 +7,10 @@
     * [3.4. Add a client secret for client-1](#34-add-a-client-secret-for-client-1)
     * [3.5. Add a redirect URI for client-1](#35-add-a-redirect-uri-for-client-1)
     * [3.6. Register resource-server-1](#36-register-resource-server-1)
+    * [3.7. Expose apis for resource-server-1](#37-expose-apis-for-resource-server-1)
 - [4. Run sample applications](#4-run-sample-applications)
 - [5. Homework](#5-homework)
+
 
 
 
