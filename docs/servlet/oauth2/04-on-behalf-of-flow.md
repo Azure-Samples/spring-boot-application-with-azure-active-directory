@@ -10,9 +10,11 @@
     * [3.7. Add a client secret for resource-server-1](#37-add-a-client-secret-for-resource-server-1)
     * [3.8. Add a redirect URI for resource-server-1](#38-add-a-redirect-uri-for-resource-server-1)
     * [3.9. Expose apis for resource-server-1](#39-expose-apis-for-resource-server-1)
-    * [3.10. Register resource-server-2](#310-register-resource-server-2)
-    * [3.11. Expose apis for resource-server-2](#311-expose-apis-for-resource-server-2)
-    * [3.12. Authorize resource-server-1 to access resource-server-2](#312-authorize-resource-server-1-to-access-resource-server-2)
+    * [3.10. Set accessTokenAcceptedVersion to 2 for resource-server-1](#310-set-accesstokenacceptedversion-to-2-for-resource-server-1)
+    * [3.11. Register resource-server-2](#311-register-resource-server-2)
+    * [3.12. Expose apis for resource-server-2](#312-expose-apis-for-resource-server-2)
+    * [3.13. Set accessTokenAcceptedVersion to 2 for resource-server-1](#313-set-accesstokenacceptedversion-to-2-for-resource-server-1)
+    * [3.14. Authorize resource-server-1 to access resource-server-2](#314-authorize-resource-server-1-to-access-resource-server-2)
 - [4. Run sample applications](#4-run-sample-applications)
 - [5. Homework](#5-homework)
 
@@ -64,14 +66,20 @@ Read [document about adding a redirect URI], add redirect URI: **http://localhos
 ## 3.9. Expose apis for resource-server-1
 Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
 
-## 3.10. Register resource-server-2
+## 3.10. Set accessTokenAcceptedVersion to 2 for resource-server-1
+Read [document about Application manifest], set `accessTokenAcceptedVersion` to `2`.
+
+## 3.11. Register resource-server-2
 Read [document about registering an application], register an application named **resource-server-2**. Get the client-id: **${resource-server-2-client-id}**.
 
-## 3.11. Expose apis for resource-server-2
+## 3.12. Expose apis for resource-server-2
 Read [document about exposing an api], expose 2 scopes for resource-server-2: **resource-server-2.scope-1** and **resource-server-2.scope-2**, choose **Admins and users** for **Who can consent** option.
 
-## 3.12. Authorize resource-server-1 to access resource-server-2
-Read [MS docs about exposing an api], pre-authorize resource-server-1 to access resource-server-2.
+## 3.13. Set accessTokenAcceptedVersion to 2 for resource-server-1
+Read [document about Application manifest], set `accessTokenAcceptedVersion` to `2`.
+
+## 3.14. Authorize resource-server-1 to access resource-server-2
+Read [document about exposing an api], pre-authorize resource-server-1 to access resource-server-2.
 
 
 # 4. Run sample applications
@@ -103,6 +111,7 @@ Read [MS docs about exposing an api], pre-authorize resource-server-1 to access 
 [document about adding a client secret]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret
 [document about adding a redirect URI]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri
 [document about exposing an api]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-expose-web-apis
+[document about Application manifest]: https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest#accesstokenacceptedversion-attribute
 [client]: ../../../servlet/oauth2/04-on-behalf-of-flow/client
 [resource-server-1]: ../../../servlet/oauth2/04-on-behalf-of-flow/resource-server-1
 [resource-server-2]: ../../../servlet/oauth2/04-on-behalf-of-flow/resource-server-2

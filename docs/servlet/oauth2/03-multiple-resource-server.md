@@ -8,8 +8,10 @@
     * [3.5. Add a redirect URI for client-1](#35-add-a-redirect-uri-for-client-1)
     * [3.6. Register resource-server-1](#36-register-resource-server-1)
     * [3.7. Expose apis for resource-server-1](#37-expose-apis-for-resource-server-1)
-    * [3.8. Register resource-server-2](#38-register-resource-server-2)
-    * [3.9. Expose apis for resource-server-2](#39-expose-apis-for-resource-server-2)
+    * [3.8. Set accessTokenAcceptedVersion to 2 for resource-server-1](#38-set-accesstokenacceptedversion-to-2-for-resource-server-1)
+    * [3.9. Register resource-server-2](#39-register-resource-server-2)
+    * [3.10. Expose apis for resource-server-2](#310-expose-apis-for-resource-server-2)
+    * [3.11. Set accessTokenAcceptedVersion to 2 for resource-server-2](#311-set-accesstokenacceptedversion-to-2-for-resource-server-2)
 - [4. Run sample applications](#4-run-sample-applications)
 - [5. Homework](#5-homework)
 
@@ -52,11 +54,17 @@ Read [document about registering an application], register an application named 
 ## 3.7. Expose apis for resource-server-1
 Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
 
-## 3.8. Register resource-server-2
+## 3.8. Set accessTokenAcceptedVersion to 2 for resource-server-1
+Read [document about Application manifest], set `accessTokenAcceptedVersion` to `2`.
+
+## 3.9. Register resource-server-2
 Read [document about registering an application], register an application named **resource-server-2**. Get the client-id: **${resource-server-2-client-id}**.
 
-## 3.9. Expose apis for resource-server-2
+## 3.10. Expose apis for resource-server-2
 Read [document about exposing an api], expose 2 scopes for resource-server-2: **resource-server-2.scope-1** and **resource-server-2.scope-2**, choose **Admins and users** for **Who can consent** option.
+
+## 3.11. Set accessTokenAcceptedVersion to 2 for resource-server-2
+Read [document about Application manifest], set `accessTokenAcceptedVersion` to `2`.
 
 # 4. Run sample applications
 1. Open sample application: [client], fill the placeholders in **application.yml**, then run the application.
@@ -89,6 +97,7 @@ Read [document about exposing an api], expose 2 scopes for resource-server-2: **
 [document about adding a client secret]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret
 [document about adding a redirect URI]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri
 [document about exposing an api]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-expose-web-apis
+[document about Application manifest]: https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest#accesstokenacceptedversion-attribute
 [client]: ../../../servlet/oauth2/03-multiple-resource-server/client
 [resource-server-1]: ../../../servlet/oauth2/03-multiple-resource-server/resource-server-1
 [resource-server-2]: ../../../servlet/oauth2/03-multiple-resource-server/resource-server-2

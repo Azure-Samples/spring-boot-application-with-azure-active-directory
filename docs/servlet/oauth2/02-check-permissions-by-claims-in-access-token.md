@@ -8,8 +8,9 @@
     * [3.5. Add a redirect URI for client-1](#35-add-a-redirect-uri-for-client-1)
     * [3.6. Register resource-server-1](#36-register-resource-server-1)
     * [3.7. Expose apis for resource-server-1](#37-expose-apis-for-resource-server-1)
-    * [3.8. Create roles for resource-server-1](#38-create-roles-for-resource-server-1)
-    * [3.9. Assign user-1 to resource-server-1-role-1](#39-assign-user-1-to-resource-server-1-role-1)
+    * [3.8. Set accessTokenAcceptedVersion to 2 for resource-server-1](#38-set-accesstokenacceptedversion-to-2-for-resource-server-1)
+    * [3.9. Create roles for resource-server-1](#39-create-roles-for-resource-server-1)
+    * [3.10. Assign user-1 to resource-server-1-role-1](#310-assign-user-1-to-resource-server-1-role-1)
 - [4. Run sample applications](#4-run-sample-applications)
 - [5. Homework](#5-homework)
 
@@ -54,10 +55,13 @@ Read [document about registering an application], register an application named 
 ## 3.7. Expose apis for resource-server-1
 Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
 
-## 3.8. Create roles for resource-server-1
+## 3.8. Set accessTokenAcceptedVersion to 2 for resource-server-1
+Read [document about Application manifest], set `accessTokenAcceptedVersion` to `2`.
+
+## 3.9. Create roles for resource-server-1
 Read [document about declaring roles for an application], create 2 roles for resource-server-1: **resource-server-1-role-1** and **resource-server-1-role-2**.
 
-## 3.9. Assign user-1 to resource-server-1-role-1
+## 3.10. Assign user-1 to resource-server-1-role-1
 Read [document about assigning users and groups to roles], assign **user-1** to **resource-server-2-role-1**.
 
 # 4. Run sample applications
@@ -92,6 +96,7 @@ Read [document about assigning users and groups to roles], assign **user-1** to 
 [document about adding a client secret]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret
 [document about adding a redirect URI]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri
 [document about exposing an api]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-expose-web-apis
+[document about Application manifest]: https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest#accesstokenacceptedversion-attribute
 [document about configuring a client application to access a web API]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-access-web-apis
 [document about assigning users and groups to roles]: https://docs.microsoft.com/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps#assign-users-and-groups-to-roles
 [document about declaring roles for an application]: https://docs.microsoft.com/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps#declare-roles-for-an-application

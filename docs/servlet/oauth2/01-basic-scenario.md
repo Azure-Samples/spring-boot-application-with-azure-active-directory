@@ -8,6 +8,7 @@
     * [3.5. Add a redirect URI for client-1](#35-add-a-redirect-uri-for-client-1)
     * [3.6. Register resource-server-1](#36-register-resource-server-1)
     * [3.7. Expose apis for resource-server-1](#37-expose-apis-for-resource-server-1)
+    * [3.8. Set accessTokenAcceptedVersion to 2 for resource-server-1](#38-set-accesstokenacceptedversion-to-2-for-resource-server-1)
 - [4. Run sample applications](#4-run-sample-applications)
 - [5. Homework](#5-homework)
 
@@ -52,6 +53,9 @@ Read [document about registering an application], register an application named 
 ## 3.7. Expose apis for resource-server-1
 Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
 
+## 3.8. Set accessTokenAcceptedVersion to 2 for resource-server-1
+Read [document about Application manifest], set `accessTokenAcceptedVersion` to `2`.
+
 # 4. Run sample applications
  1. Open sample application: [client], fill the placeholders in **application.yml**, then run the application.
  2. Open sample application: [resource-server], fill the placeholders in **application.yml**, then run the application.
@@ -87,6 +91,8 @@ Read [document about exposing an api], expose 2 scopes for resource-server-1: **
 [document about adding a client secret]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret
 [document about adding a redirect URI]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri
 [document about registering an application]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app
+[document about exposing an api]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-configure-app-expose-web-apis
+[document about Application manifest]: https://docs.microsoft.com/azure/active-directory/develop/reference-app-manifest#accesstokenacceptedversion-attribute
 [client]: ../../../servlet/oauth2/01-basic-scenario/client
 [resource-server]: ../../../servlet/oauth2/01-basic-scenario/resource-server
 [Edge]: https://www.microsoft.com/edge?r=1
