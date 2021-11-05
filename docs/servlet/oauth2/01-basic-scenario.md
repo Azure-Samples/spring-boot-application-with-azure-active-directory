@@ -56,7 +56,7 @@ Read [document about exposing an api], expose 2 scopes for resource-server-1: **
  1. Open sample application: [client], fill the placeholders in **application.yml**, then run the application.
  2. Open sample application: [resource-server], fill the placeholders in **application.yml**, then run the application.
  3. Open browser(for example: [Edge]), close all [InPrivate window], and open a new [InPrivate window].
- 4. Access **http://localhost:8080**, it will redirect to Microsoft login page. Input username and password, it will return permission request page. click **Accept**, then it will return **Hello, this is client-1.**. This means we log in successfully.
+ 4. Access **http://localhost:8080**, it will redirect to Microsoft login page. Input username and password (update password if it requests you to), it will return permission request page. click **Accept**, then it will return **Hello, this is client-1.**. This means we log in successfully.
  5. Access **http://localhost:8080/resource-server-1**, it will return **Hello, this is resource-server-1.**, which means [client] can access [resource-server].
 
 # 5. Homework

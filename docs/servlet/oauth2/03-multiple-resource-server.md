@@ -65,7 +65,7 @@ Read [document about exposing an api], expose 2 scopes for resource-server-2: **
 4. Open browser(for example: [Edge]), close all [InPrivate window], and open a new [InPrivate window].
 5. Access **http://localhost:8080/resource-server-all**, it will return login page.
 6. Click **client-1-resource-server-1**, it will redirect to Microsoft login page.
-7. Input username and password, it will return permission request page: let user permit **client-1** to access **resource-server-1**.
+7. Input username and password (update password if it requests you to), it will return permission request page: let user permit **client-1** to access **resource-server-1**.
 8. Click **Accept**, then it will return permission request page: let user permit **client-1** to access **resource-server-2**.
 9. Click **Accept**, then it will return **Hello, this is client-1, ...**. This means user log in successfully.
 10. Access **http://localhost:8080/resource-server-1**, it will return **Hello, this is resource-server-1.**, there is no permission request page anymore.

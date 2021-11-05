@@ -80,7 +80,7 @@ Read [MS docs about exposing an api], pre-authorize resource-server-1 to access 
 3. Open sample application: [resource-server-2], fill the placeholders in **application.yml**, then run the application.
 4. Open browser(for example: [Edge]), close all [InPrivate window], and open a new [InPrivate window].
 5. Access **http://localhost:8080**, it will return login page.
-6. Input username and password, it will return **Hello, this is client-1.**, which means user log in successfully.
+6. Input username and password (update password if it requests you to), it will return **Hello, this is client-1.**, which means user log in successfully.
 7. Access **http://localhost:8080/resource-server-1**, it will return **Hello, this is resource-server-1.**, which means [client] can access [resource-server-1].
 8. Access **http://localhost:8080/resource-server-1/resource-server-2**, it will return **Hello, this is resource-server-2.**, which means [resource-server-1] can access [resource-server-2].
 
