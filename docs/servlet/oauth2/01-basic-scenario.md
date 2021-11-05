@@ -53,8 +53,8 @@ Read [document about registering an application], register an application named 
 Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
 
 # 4. Run sample applications
- 1. Fill these placeholders in **application.yml**, then run [client].
- 2. Fill these placeholders in **application.yml**, then run [resource-server].
+ 1. Open sample application: [client], fill the placeholders in **application.yml**, then run the application.
+ 2. Open sample application: [resource-server], fill the placeholders in **application.yml**, then run the application.
  3. Open browser(for example: [Edge]), close all [InPrivate window], and open a new [InPrivate window].
  4. Access **http://localhost:8080**, it will redirect to Microsoft login page. Input username and password, it will return permission request page. click **Accept**, then it will return **Hello, this is client-1.**. This means we log in successfully.
  5. Access **http://localhost:8080/resource-server-1**, it will return **Hello, this is resource-server-1.**, which means [client] can access [resource-server].

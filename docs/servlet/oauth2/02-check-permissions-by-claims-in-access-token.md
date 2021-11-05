@@ -61,8 +61,8 @@ Read [document about declaring roles for an application], create 2 roles for res
 Read [document about assigning users and groups to roles], assign **user-1** to **resource-server-2-role-1**.
 
 # 4. Run sample applications
-1. Fill these placeholders in **application.yml** and **CheckPermissionByScopeController.java**, then run [client].
-2. Fill these placeholders in **application.yml**, then run [resource-server].
+1. Open sample application: [client], fill the placeholders in **application.yml** and **CheckPermissionByScopeController.java**, then run the application.
+2. Open sample application: [resource-server], fill the placeholders in **application.yml**, then run the application.
 3. Open browser(for example: [Edge]), close all [InPrivate window], and open a new [InPrivate window].
 4. Access **http://localhost:8080**, it will redirect to Microsoft login page. Input username and password, it will return permission request page. click **Accept**, then it will return **Hello, this is client-1.**. This means we log in successfully.
 5. Access **http://localhost:8080/scope/resource-server-1-scope-1**, it will return **Hi, this is resource-server-1. You can access my endpoint: /scope/resource-server-1-scope-1**.

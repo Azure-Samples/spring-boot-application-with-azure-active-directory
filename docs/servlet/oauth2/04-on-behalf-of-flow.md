@@ -75,9 +75,9 @@ Read [MS docs about exposing an api], pre-authorize resource-server-1 to access 
 
 
 # 4. Run sample applications
-1. Fill these placeholders in **application.yml**, then run [client].
-2. Fill these placeholders in **application.yml**, then run [resource-server-1].
-3. Fill these placeholders in **application.yml**, then run [resource-server-2].
+1. Open sample application: [client], fill the placeholders in **application.yml**, then run the application.
+2. Open sample application: [resource-server-1], fill the placeholders in **application.yml**, then run the application.
+3. Open sample application: [resource-server-2], fill the placeholders in **application.yml**, then run the application.
 4. Open browser(for example: [Edge]), close all [InPrivate window], and open a new [InPrivate window].
 5. Access **http://localhost:8080**, it will return login page.
 6. Input username and password, it will return **Hello, this is client-1.**, which means user log in successfully.
