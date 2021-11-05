@@ -27,12 +27,12 @@
 # 1. About
 
 This section shows this scenario:
-- User sign in client and client get [access token] by [OAuth 2.0 authorization code flow].
-- Client access resource-server-1 by [access token].
-- resource-server-1 validate the [access token] by validating the signature, and checking these claims: `aud`, `nbf` and `exp`.
-- resource-server-1 use the access token to get a new access token by [on behalf of flow]. 
-- resource-server-1 use the new access token to access resource-server-2.
-- resource-server-2 validate the [access token] by validating the signature, and checking these claims: `aud`, `nbf` and `exp`.
+1. User sign in client and client get [access token] by [OAuth 2.0 authorization code flow].
+2. Client access resource-server-1 by [access token].
+3. resource-server-1 validate the [access token] by validating the signature, and checking these claims: `aud`, `nbf` and `exp`.
+4. resource-server-1 use the access token to get a new access token by [on behalf of flow].
+5. resource-server-1 use the new access token to access resource-server-2.
+6. resource-server-2 validate the [access token] by validating the signature, and checking these claims: `aud`, `nbf` and `exp`.
 
 # 2. Get sample applications
 Get samples applications from in GitHub: [04-on-behalf-of-flow].
