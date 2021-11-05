@@ -16,7 +16,7 @@
 
 
 # 1. About
-This doc is used to demonstrate how to use [Azure Active Directory] in [Spring Boot] application.
+This doc demonstrates how to use [Azure Active Directory] in [Spring Boot] application.
 
 # 2. Ask for help
 If you have any question about these samples, please ask by [creating a new github issue].
