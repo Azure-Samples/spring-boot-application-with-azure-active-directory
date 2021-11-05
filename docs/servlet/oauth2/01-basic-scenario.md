@@ -47,6 +47,9 @@ Read [document about adding a redirect URI], add redirect URI: **http://localhos
 ## 3.6. Register resource-server-1
 Read [document about registering an application], register an application named **resource-server-1**. Get the client-id: **${resource-server-1-client-id}**.
 
+## 3.7. Expose apis for resource-server-1
+Read [document about exposing an api], expose 2 scopes for resource-server-1: **resource-server-1.scope-1** and **resource-server-1.scope-2**, choose **Admins and users** for **Who can consent** option.
+
 # 4. Run sample applications
  1. Fill these placeholders in **application.yml**, then run [client].
  2. Fill these placeholders in **application.yml**, then run [resource-server].
@@ -81,6 +84,7 @@ Read [document about registering an application], register an application named 
 [document about adding users]: https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory
 [document about adding a client secret]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-client-secret
 [document about adding a redirect URI]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri
+[document about registering an application]: https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app
 [client]: ../../../servlet/oauth2/01-basic-scenario/client
 [resource-server]: ../../../servlet/oauth2/01-basic-scenario/resource-server
 [Edge]: https://www.microsoft.com/edge?r=1
