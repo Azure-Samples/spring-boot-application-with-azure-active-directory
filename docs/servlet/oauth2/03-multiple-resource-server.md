@@ -21,12 +21,11 @@
 
 # 1. About
 
-In [Azure Active Directory]'s [access token], the **aud** claim only have one value, not a list. Which means one [access token] can only been used for one resource server. And one **OAuth2AuthorizedClient** can only hold one access token. So, if one client want to access multiple resource servers, it must configure multiple **ClientRegistration**s.
+In [Azure Active Directory]'s [access token], the **aud** claim is a single string, not a list of strings. It means one [access token] can only been accepted for one resource server. And one **OAuth2AuthorizedClient** can only hold one access token. So, if one application want to access multiple resource servers, it must configure multiple **ClientRegistration**s.
 
 This section shows this scenario:
 1. One client application access multiple resource servers.
-2. Consent scopes when request for specific endpoint.
-3. Consent all scopes when request for a specific endpoint.
+2. Consent all scopes when request for a specific endpoint.
 
 # 2. Get sample applications
 Get samples applications from in GitHub: [03-multiple-resource-server].
