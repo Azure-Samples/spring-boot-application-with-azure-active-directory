@@ -1,22 +1,7 @@
-# Spring Boot application with Azure Active Directory
 
-This repo demonstrates how to use [Azure Active Directory] in [Spring Boot] application.
-
-Please refer to [docs] to get more information about how to use the samples in this repo.
-
-# Multiple version support
-
-You can change branch to see contents for specific Spring Boot version.
-
-| Branch name        | [Spring Boot] version | Is current branch? | Is default branch? |
-| ------------------ | --------------------- | ------------------ | ------------------ | 
-|[spring-boot-2.5.x] | 2.5.x                 | :heavy_check_mark: | :heavy_check_mark: |
-| not supported yet  | 2.6.x                 | :x:                | :x:                |
+This repo is deprecated, please refer to [Azure-Samples/azure-spring-boot-samples] to get these samples.
 
 
 
 
-[Azure Active Directory]: https://azure.microsoft.com/services/active-directory/
-[Spring Boot]: https://spring.io/projects/spring-boot
-[docs]: docs
-[spring-boot-2.5.x]: https://github.com/Azure-Samples/spring-boot-application-with-azure-active-directory/tree/spring-boot-2.5.x
+[Azure-Samples/azure-spring-boot-samples]: https://github.com/Azure-Samples/azure-spring-boot-samples/tree/9c271d8789651a5119792a320a03fad8d1018dfd/aad/spring-security
